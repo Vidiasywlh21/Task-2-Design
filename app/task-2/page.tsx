@@ -15,8 +15,9 @@ export default function Task2() {
                 <p className="text-blue-400 mt-2">in 3 days</p>
             </div>
             <div className="flex -space-x-2">
-                <div className="w-8 h-8 rounded-full bg-gray-300 border-2 border-white"></div>
-                <div className="w-8 h-8 rounded-full bg-gray-400 border-2 border-white"></div>
+                <img className="w-8 h-8 rounded-full bg-gray-300 border-2 border-white" src="https://i.pravatar.cc/300?u=1" alt="user 1"/>
+                <img className="w-8 h-8 rounded-full bg-gray-400 border-2 border-white" src="https://i.pravatar.cc/300?u=2" alt="user 2"/>
+                <img className="w-8 h-8 rounded-full bg-gray-400 border-2 border-white" src="https://i.pravatar.cc/300?u=3" alt="user 3"/>
                 <div className="w-8 h-8 rounded-full bg-gray-100 border-2 border-white flex items-center justify-center text-[10px] font-bold text-blue-600">9+</div>
 
             </div>
@@ -37,10 +38,11 @@ export default function Task2() {
             <h1 className="text-2xl font-bold text-green-900">DALL·E 2, Midjourney, Stable Diffusion</h1>
             <p className="text-green-600 mt-2">in 5 days</p>
         </div>
-        <div className="flex -space-x-2">
-            <div className="w-8 h-8 rounded-full bg-gray-300 border-2 border-white"></div>
-            <div className="w-8 h-8 rounded-full bg-gray-400 border-2 border-white"></div>
-            <div className="w-8 h-8 rounded-full bg-gray-100 border-2 border-white flex items-center justify-center text-[10px] font-bold text-green-600">3+</div>
+        <div className="flex -space-x-3">
+            <img className="w-8 h-8 rounded-full bg-gray-300 border-2 border-white" src="https://i.pravatar.cc/300?u=1" alt="user 1"/>
+            <img className="w-8 h-8 rounded-full bg-gray-400 border-2 border-white" src="https://i.pravatar.cc/300?u=2" alt="user 2"/>
+            <img className="w-8 h-8 rounded-full bg-gray-400 border-2 border-white" src="https://i.pravatar.cc/300?u=3" alt="user 3"/>
+            <div className="w-8 h-8 rounded-full bg-gray-100 border-2 border-white flex items-center justify-center text-cyan-800 bg-cyan-100 border-2 border-cyan-50 rounded-full">3+</div>
         </div>
         </div>
         </div>
